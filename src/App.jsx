@@ -4,12 +4,10 @@ import Navbar from './components/Navbar';
 import Profile from './components/Profile';
 import Projects from './components/Projects';
 import About from './components/About';
+import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Achievements from './components/Achievements';
 import Footer from './components/Footer';
-
-// Placeholder components for Skills
-const Skills = () => <div className="bg-[#F5EDE3] min-h-screen flex items-center justify-center"><h1 className="text-4xl font-serif">Skills Section Coming Soon</h1></div>;
 
 function App() {
   return (

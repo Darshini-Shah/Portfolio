@@ -3,27 +3,13 @@ import React from 'react';
 const About = () => {
   const leadership = [
     {
-      title: 'Generative AI & ML Lead',
-      org: 'Google Developer Groups (GDG) IIT Patna',
-      desc: 'Selected to lead GenAI workshops and mentor students on machine learning projects. I bridge the gap between complex AI theory and practical application for the campus community.',
+      title: 'Design Team Coordinator',
+      org: 'TEDxIITPatna',
+      desc: 'Leading the creative direction for event-wide branding and promotional assets. I manage a team of designers to translate complex ideas into high-impact visual narratives using Figma and Adobe Photoshop.',
       icon: (
-        <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0012 18.75c-1.03 0-1.9-.4-2.593-1.053l-.547-.547z" /></svg>
-      )
-    },
-    {
-      title: 'Class Representative',
-      org: 'AI & DS Batch, IIT Patna',
-      desc: 'Acting as the primary bridge between the faculty and the student body. I streamline academic communication, address batch concerns, and coordinate logistics.',
-      icon: (
-        <svg className="w-6 h-6 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-      )
-    },
-    {
-      title: 'Sub-Coordinator',
-      org: 'Hexachrome (Puzzle Club)',
-      desc: 'Organizing logic-based competitions and weekly puzzle challenges. It fuels my interest in problem solving and algorithm design.',
-      icon: (
-        <svg className="w-6 h-6 text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M11 4a2 2 0 114 0v1a1 1 0 001 1h3a1 1 0 011 1v3a1 1 0 01-1 1h-1a2 2 0 100 4h1a1 1 0 011 1v3a1 1 0 01-1 1h-3a1 1 0 01-1-1v-1a2 2 0 10-4 0v1a1 1 0 01-1 1H7a1 1 0 01-1-1v-3a1 1 0 011-1h1a2 2 0 100-4H7a1 1 0 01-1-1V7a1 1 0 011-1h3a1 1 0 001-1V4z" /></svg>
+        <svg className="w-6 h-6 text-pink-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
+        </svg>
       )
     }
   ];
@@ -40,36 +26,15 @@ const About = () => {
 
           <div className="space-y-8 text-gray-700 leading-relaxed text-lg">
             <p>
-              I am a 3rd-year B.Tech student in <span className="font-bold text-gray-900">Artificial Intelligence and Data Science</span> at 
-              Indian Institute of Technology (IIT) Patna, currently at an <span className="font-bold text-gray-900 underline decoration-teal-300">SPI of 9.57</span>. 
-              I focus on translating complex AI research into deployable code. My journey is driven by a single question: 
-              <span className="italic font-serif ml-1">How can we build code that learns?</span>
-            </p>
-            
-            <p>
-              When I am not training models or optimizing algorithms, I am building the full-stack interfaces that make them usable. 
-              I believe the best engineers are those who can navigate both the theoretical depths of ML and the practical challenges 
-              of Software Engineering.
+              I am a B.Tech student in <span className="font-bold text-gray-900">Artificial Intelligence and Data Science</span> at <span className="font-bold text-gray-900">IIT Patna</span>, maintaining a <span className="font-bold text-gray-900 underline decoration-teal-300">CGPA of 8.72</span> with a recent peak <span className="font-bold text-gray-900">SGPA of 9.64</span>. My work sits at the intersection of complex algorithmic problem-solving and scalable AI deployment. From ranking as a Codeforces Pupil to architecting Advanced RAG systems with parallel retrieval and reranking, I focus on building systems that don't just process data—they understand it. I bridge the gap between competitive coding rigor and full-stack engineering to create tools like Jilo, which transforms unstructured clinical chaos into structured FHIR standards.
             </p>
 
-            <div className="bg-white/40 p-8 rounded-2xl border-l-4 border-teal-500 shadow-sm mt-12">
-              <div className="flex items-center gap-3 mb-4">
-                <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" /></svg>
-                <h3 className="font-bold text-gray-900">Beyond the Screen</h3>
-              </div>
-              <p className="text-gray-600">
-                Off-classroom, you can find me playing basketball, swimming, networking with fellow IITians or volunteering in college events. 
-                I thrive in environments that challenge me to be observant, quick-thinking, and creative.
-              </p>
-            </div>
           </div>
         </div>
 
         {/* Right Column - Leadership */}
         <div>
-          <h2 className="text-2xl font-bold text-gray-900 mb-10 flex items-center gap-2">
-            Leadership
-          </h2>
+          
           
           <div className="space-y-6">
             {leadership.map((item, idx) => (
@@ -84,6 +49,29 @@ const About = () => {
                 </div>
               </div>
             ))}
+
+            {/* Relevant Courses Card */}
+            <div className="bg-white p-8 rounded-3xl shadow-sm border border-white mt-8">
+              <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                <svg className="w-5 h-5 text-teal-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                Relevant Courses
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {[
+                  "Data Structures and Algorithms",
+                  "AI Concepts",
+                  "Optimization Techniques",
+                  "Digital Logic and Computer Organization",
+                  "Discrete Mathematics",
+                  "Database and Management System"
+                ].map((course, i) => (
+                  <div key={i} className="flex items-center gap-3 text-gray-600 text-sm">
+                    <div className="w-1.5 h-1.5 rounded-full bg-teal-400"></div>
+                    {course}
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
 

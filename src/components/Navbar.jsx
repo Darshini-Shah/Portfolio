@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const navLinks = [
-    { name: 'Resume', href: 'https://drive.google.com/file/d/1IgZYoMDPHUsD6j26uA_5ZiP-0xipSZI_/view' },
+    { name: 'Home', href: '/' },
     { name: 'About', href: '/About' },
     { name: 'Projects', href: '/projects' },
     { name: 'Skills', href: '/Skills' },
     { name: 'Achievements', href: '/Achievements' },
+    //{ name: 'Resume', href: 'https://drive.google.com/file/d/1IgZYoMDPHUsD6j26uA_5ZiP-0xipSZI_/view' },
     { name: 'Contact', href: '/Contact' },
   ];
 
