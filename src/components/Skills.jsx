@@ -68,7 +68,7 @@ const skillCategories = [
 
 const Skills = () => {
   return (
-    <div className="bg-[#F5EDE3] min-h-screen pt-8 pb-20 px-8 md:px-24">
+    <div className="bg-transparent min-h-screen pt-8 pb-20 px-8 md:px-24">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12 text-center">
           <h1 className="text-5xl font-serif text-gray-900 mb-3">Skills</h1>

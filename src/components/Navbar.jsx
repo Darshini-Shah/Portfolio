@@ -13,7 +13,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="flex items-center justify-between px-12 py-8 bg-[#F5EDE3]">
+    <nav className="flex items-center justify-between px-12 py-8 bg-transparent">
       <Link to="/" className="flex items-center gap-2 hover:opacity-70 transition-opacity">
         <div className="w-4 h-4 bg-black rounded-full"></div>
         <span className="text-xl font-medium tracking-tight text-gray-800">Darshini Shah</span>
@@ -29,7 +29,7 @@ const Navbar = () => {
               {link.name}
             </Link>
             {index < navLinks.length - 1 && (
-              <div className="h-4 w-[1px] bg-gray-300"></div>
+              <div className="h-4 w-[1px] bg-gray-400"></div>
             )}
           </React.Fragment>
         ))}

@@ -8,11 +8,13 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Achievements from './components/Achievements';
 import Footer from './components/Footer';
+import AnimatedBackground from './components/AnimatedBackground';
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen flex flex-col font-sans">
+      <div className="min-h-screen flex flex-col font-sans relative">
+        <AnimatedBackground />
         <Navbar />
         <main className="flex-grow">
           <Routes>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <div className="bg-[#F5EDE3] min-h-screen pt-8 pb-20 px-8 md:px-24">
+    <div className="bg-transparent min-h-screen pt-8 pb-20 px-8 md:px-24">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-20 items-start">
         {/* Right Side: Form */}
         <div className="flex-1 w-[95%] max-w-1xl bg-white p-6 rounded-[2.5rem] shadow-sm border border-white">

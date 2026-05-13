@@ -38,7 +38,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="bg-[#F5EDE3] pt-15 pb-12 px-12 border-t border-gray-200">
+    <footer className="bg-transparent py-16 px-12 md:px-24 border-t border-gray-100">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-center items-center gap-8">
 
         <div className="flex items-center gap-8">

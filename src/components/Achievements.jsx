@@ -41,7 +41,7 @@ const achievements = [
 
 const Achievements = () => {
   return (
-    <div className="bg-[#F5EDE3] min-h-screen pt-8 pb-16 px-4 md:px-12 flex flex-col items-center">
+    <div className="bg-transparent min-h-screen pt-8 pb-16 px-4 md:px-12 flex flex-col items-center">
       <div className="max-w-7xl mx-auto">
         <div className="mb-5">
           <h1 className="text-6xl font-serif text-gray-900 mb-4 text-center">Achievements</h1>

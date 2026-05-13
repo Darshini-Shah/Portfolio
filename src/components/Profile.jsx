@@ -2,7 +2,7 @@ import React from 'react';
 
 const Profile = () => {
   return (
-    <div className="flex flex-col items-center justify-center bg-[#F5EDE3] flex-grow px-12 pt-12 pb-16">
+    <div className="bg-transparent flex flex-col items-center justify-center flex-grow px-12 pt-12 pb-16">
       <div className="flex flex-col md:flex-row items-center gap-16 max-w-6xl w-full">
         {/* Profile Image */}
         <div className="relative w-80 h-80 flex-shrink-0">
